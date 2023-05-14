@@ -7,7 +7,7 @@ In this project, I created domain-hardening GPOs and revisited some PowerShell f
 ## **Account Lockout Policies**
 
 The first image, "Account-Lockout-Policies," shows the changes made to account lockout policies using the Group Policy Management editor. The lockout duration was changed to 30 minutes, the account lockout threshold was set to 10 invalid logon attempts, and the account lockout counter was reset after 30 minutes.
-https://github.com/mennealex/Windows-Sysadmin-Group-Policy-Challenge/blob/aa75ae39b495d1d30c1c2ffec9caff26de83f656/Account-Lockout-Policies.PNG
+Account-Lockout-Policies.PNG
 ## **Group Policy Objects**
 
 The second image, "GPOs," displays the group policy objects added for the project. These include no LLMNR, PowerShell logging, account lockout, no control panel, and limit settings.
